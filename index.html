@@ -7,9 +7,9 @@
     <link rel="stylesheet" href="estilos.css">
 </head>
 <header>
-    <H1>master en CSS: Responsive design</H1>
+    <H1 id="titulo">master en CSS: Responsive design</H1>
 </header>
-<nav>
+<nav class="content">
     <ul id="lista">
         <li>Inicio</li>
         <li>Temario</li>
@@ -23,21 +23,23 @@
         <li>Contacto</li>
     </ul>
 </nav>
-<body>
+<body class="content">
     <div id="descripcion">
+        <div id="texto">
         <h2>Descripcion</h2>
         <p>
-            <strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae ad, magnam enim unde accusantium, reprehenderit fugiat illo quibusdam dolor suscipit nostrum expedita iusto doloremque pariatur natus dolorum explicabo vitae qui!
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi accusantium odit delectus deserunt inventore distinctio molestias ipsam sed quo. Voluptate iure, at maxime temporibus eveniet eos recusandae deserunt dolorum magni? </strong> <br><br>
+            <strong><em><underlined>ipsum dolor, sit amet consectetur adipisicing elit. Repudiandae ad, magnam enim unde accusantium, reprehenderit fugiat illo quibusdam dolor suscipit nostrum expedita iusto doloremque pariatur natus dolorum explicabo vitae qui!
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eligendi accusantium odit delectus deserunt inventore distinctio molestias ipsam sed quo. Voluptate iure, at maxime temporibus eveniet eos recusandae deserunt dolorum magni? </strong></em><br><br>
             <mark>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore officiis error, illum atque neque architecto. Est vel iure quae, voluptate repellat hic labore expedita at, obcaecati repellendus explicabo cupiditate delectus. <br> <br>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure iste impedit rerum non aut, ratione quam voluptas blanditiis adipisci, assumenda harum, ipsam ab corporis. Adipisci voluptates repudiandae vitae ea illo? <br> <br> </mark>
         </p>
-    </div> <br> <br>
+        </div>
+    </div>
     <div id="caja">
         <form action="/procesar" accept-charset="UTF-8" id="formulario">
-            <strong>Nombre </strong> <br>
+            Nombre <br>
             <input type="text" name="nombre"> <br> <br>
-            <strong>Apellido</strong> <br>
+            Apellido <br>
             <input type="text" name="nombre"> <br> <br>
 
             <button type="submit" id="boton"> Enviar </button> <BR> </BR>
@@ -45,10 +47,10 @@
     </div> <br>
 
     <div id="final">
-        Hola soy XXXX
+        <H1>Hola soy XXXX</H1>
     </div>
     <footer id="fo">
-        <P>Todos los derechos reservados. XXXX</P>
+        <P>Todos los derechos reservados.<strong id="rojo">XXXX</strong></P>
     </footer>
 </body>
 </html>
