@@ -1,0 +1,45 @@
+ h1 {
+    background-color: rgb(122, 65, 255);
+    color: rgb(255, 255, 255);
+}
+
+#lista {
+    color: red;
+}
+
+#sublista {
+    color: green;
+}
+
+#descripcion {
+    border: 2px solid ;
+}
+
+mark{
+    background-color: rgb(238, 25, 25);
+}
+
+#formulario {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+#caja {
+    border: 2px solid blue;
+}
+
+#boton{
+    background-color: blue;
+    color: aliceblue;
+    width: 100px;
+    height: 35px;
+}
+
+#final {
+    background-color: rgb(164, 67, 255);
+    color: aliceblue;
+}
+
+#fo {
+    margin-right: 30 px;
+}
